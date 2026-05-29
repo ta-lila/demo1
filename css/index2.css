@@ -1,0 +1,39 @@
+
+/* selecteurs basique */
+h1 {
+    color: red;
+}
+
+.vert {
+    color: green;
+
+}
+.gras {
+    font-weight: bold;
+}
+
+#blue{
+    color: blue;
+}
+/* selecteurs avancés */
+*{
+    color: blue;
+}
+[title]{
+    color: green;
+}
+div:last-of-type { 
+    color: purple;
+}
+
+h2:hover {
+    color: red;
+}
+/* les combinateurs*/
+.texte1,
+.texte2 {
+    color: red;
+}
+section .texteSpan {
+    color: orange;
+}

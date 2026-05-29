@@ -1,0 +1,78 @@
+/*
+MOBILE FIRST
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1%
+}
+
+article {
+    display: flex;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+div {
+    margin: 2%;
+}
+
+footer {
+    height: 100px;
+    background-color: rgb(20, 60, 130);
+}
+
+.bandeau {
+    display: flex;
+}
+
+.publicite {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.articles {
+    flex-grow: 7;
+}
+
+.articles p {
+    text-align: justify;
+}
+
+.bandeau h1 {
+    font-size: 3em;
+    text-align: center;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.imageArticle img {
+    width: 10vw;
+}
+
+.publicite h6 {
+    text-align: center;
+    color: red;
+}
+
+.publicite img{
+    width: 60%;
+}
+
+.publicite a {
+    text-align: center;
+}
